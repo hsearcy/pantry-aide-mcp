@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.pantryaide/pantry-aide",
+  "description": "Plan your week's meals and fill your grocery cart from chat — AI meal plans that end in a real Kroger cart or Instacart link, with pantry-aware shopping lists.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/hsearcy/pantry-aide-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://pantryaide.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pantryaide.com/mcp"
+    }
+  ]
+}
